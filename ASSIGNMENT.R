@@ -22,3 +22,8 @@ read_fwf(
 
 seaiceData
 
+mutate(text_date = paste0(2001, "-", Jan, "-01")
+       mutate(date = lubridate::as.Date(text_date)
+
+              
+       
