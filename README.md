@@ -46,7 +46,8 @@ and Jim Hester 2020) to read in my sea ice data into a tibble. After
 that, I used the `fwf_widths` function to establish the widths of my
 columns and assign those columns to a variable name which were year and
 monthly sea ice concentrations. Finally, i skipped the first 8 lines of
-my data because they were statements instead of numbers I could use.
+my data because they were statements about the data instead of numbers I
+couldn’t use.
 
 ## Results:
 
