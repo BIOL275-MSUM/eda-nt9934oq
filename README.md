@@ -44,9 +44,9 @@ full capacity, I had to make a free account with the site.
 I first used the function read\_fwf in the readr package (Hadley Wickham
 and Jim Hester 2020) to read in my sea ice data into a tibble. After
 that, I used the `fwf_widths` function to establish the widths of my
-columns and assign those columns to a variable name. Finally, i skipped
-the first 8 lines of my data because they were statements instead of
-numbers I could use.
+columns and assign those columns to a variable name which were year and
+monthly sea ice concentrations. Finally, i skipped the first 8 lines of
+my data because they were statements instead of numbers I could use.
 
 ## Results:
 

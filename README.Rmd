@@ -28,7 +28,7 @@ For this analysis I used R version 4.0.3 (R Core Team 2020) and RStudio version 
 I found the data that worked best for me was provided the Palmer Station Antarctica.(Palmer Station Antarctica LTER and S. Stammerjohn 2020) published a study on monthly sea ice concentration in the Marguerite Bay area and that is the data set I chose. In order to access the data to full capacity, I had to make a free account with the site.
 
 ### Data Preparation
-I first used the function read_fwf in the readr package (Hadley Wickham and Jim Hester 2020) to read in my sea ice data into a tibble. After that, I used the `fwf_widths` function to establish the widths of my columns and assign those columns to a variable name. Finally, i skipped the first 8 lines of my data because they were statements instead of numbers I could use.
+I first used the function read_fwf in the readr package (Hadley Wickham and Jim Hester 2020) to read in my sea ice data into a tibble. After that, I used the `fwf_widths` function to establish the widths of my columns and assign those columns to a variable name which were year and monthly sea ice concentrations. Finally, i skipped the first 8 lines of my data because they were statements instead of numbers I could use.
 
 
 
