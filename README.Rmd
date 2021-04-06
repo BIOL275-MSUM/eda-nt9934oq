@@ -4,6 +4,10 @@ author: "Michael Slaughter"
 date: "2021-03-09"
 output: github_document
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = FALSE, message=FALSE, warning=FALSE)
+```
+
 
 "The Degradation of Sea Ice in The Marguerite Bay"
 
