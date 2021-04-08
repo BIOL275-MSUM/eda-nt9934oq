@@ -31,5 +31,11 @@ extendiceData,
   date = as.Date(text_date)
 )
 
-              
+groupediceData <- group_by(extendiceData, Year)
+groupediceData
+
+summarize(groupediceData,avgannualConcent = mean(Concentration))
+
+
+
        
