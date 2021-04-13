@@ -40,6 +40,29 @@ SumgroupiceData
 
 ggplot(data=SumgroupiceData,mapping=aes(x=Year,y=avgannualConcent))+
   geom_line()+
-  geom_smooth(method=lm)
+  geom_smooth(method=lm)+
+  labs(x="Year", y="Average Concentration")+
+  theme(
+    axis.title = element_text(face = "bold"),
+    axis.text = element_text(color = "black", size = rel(1)),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.ticks.x = element_blank()
+  )
 
-       
+monthgroupiceData <- group_by(extendiceData,Month)
+monthgroupiceData
+
+summonthData <- summarize(monthgroupiceData,avgmonthConcent=mean(Concentration),.groups ="drop" )
+summonthData
+
+ggplot(data=summonthData,mapping=aes(x=Month,y=avgmonthConcent))+
+  geom_jitter(aes(y=Concentration),data=extendiceData,alpha=.3)+
+  geom_col(color="darkblue",alpha=.5)+
+  labs(x="Month", y="Average Concentration")+
+  theme(
+    axis.title = element_text(face = "bold"),
+    axis.text = element_text(color = "black", size = rel(1)),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.ticks.x = element_blank()
+  )
+

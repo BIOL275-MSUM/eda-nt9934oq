@@ -3,7 +3,7 @@ EDA Project
 Michael Slaughter
 2021-03-09
 
-“The Degradation of Sea Ice in The Marguerite Bay”
+# The Degradation of Sea Ice in The Marguerite Bay
 
 ## Abstract
 
@@ -22,7 +22,7 @@ understand the data is Ice Level Concentration and the corresponding
 month that the value was calculated. I think what I might find in this
 research is going to help raise awareness on how much Antarctic Sea Ice
 has been lost overtime and give an indication on how it may look for the
-future generations ahead. ———-
+future generations ahead.
 
 ## Introduction:
 
@@ -66,9 +66,7 @@ Data Initiative.
 
 R package version 1.4.0. <https://CRAN.R-project.org/package=readr>
 
-``` 
-  RStudio Team (2020). RStudio: Integrated Development Environment for R.
-```
+      RStudio Team (2020). RStudio: Integrated Development Environment for R.
 
 RStudio, PBC, Boston, MA URL <http://www.rstudio.com/>.
 
