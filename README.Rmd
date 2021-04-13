@@ -4,19 +4,20 @@ author: "Michael Slaughter"
 date: "2021-03-09"
 output: github_document
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, results = FALSE, message=FALSE, warning=FALSE)
 ```
 
 
-"The Degradation of Sea Ice in The Marguerite Bay"
+# The Degradation of Sea Ice in The Marguerite Bay
 
 ## Abstract
 
 Antarctic Sea Ice is all the cumulative ice that floats on top
 of the Southern Ocean. The importance of the Arctic Sea ice varies to many reasons such as the maintenance of ocean water levels and allows species native to the arctic circle to get to their destinations with ease and gives them better access to hunting, which in return, prolongs their overall survival. In fact, one of the reasons the polar bear population is at a steady decrease is due to the decrease of ice levels in the arctic circle which has extremely limited their time span of hunting. My question is how much has Antarctic Sea Level concentrations decreased overtime ? To answer this, I will be using data provided by the National Snow and Ice Data Center. Two variables that I will be working with to understand the data is Ice Level Concentration and the corresponding month that the value was calculated. I think what I might find in this research is going to help raise awareness on how much Antarctic Sea Ice has been lost overtime and give an indication on how it may look for the future generations
 ahead.
-----------
+
 
 ## Introduction:
 

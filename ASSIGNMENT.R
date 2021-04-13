@@ -34,8 +34,12 @@ extendiceData,
 groupediceData <- group_by(extendiceData, Year)
 groupediceData
 
-summarize(groupediceData,avgannualConcent = mean(Concentration))
+SumgroupiceData <- summarize(groupediceData,avgannualConcent = mean(Concentration))
 
+SumgroupiceData
 
+ggplot(data=SumgroupiceData,mapping=aes(x=Year,y=avgannualConcent))+
+  geom_line()+
+  geom_smooth(method=lm)
 
        
