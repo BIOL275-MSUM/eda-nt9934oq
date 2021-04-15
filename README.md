@@ -5,6 +5,10 @@ Michael Slaughter
 
 # The Degradation of Sea Ice in The Marguerite Bay
 
+Michael Slaughter
+
+    Biosciences Department, Minnesota State University Moorhead, 1104 7th Avenue South, Moorhead, MN 56563 USA
+
 ## Abstract
 
 Antarctic Sea Ice is all the cumulative ice that floats on top of the
@@ -24,7 +28,18 @@ research is going to help raise awareness on how much Antarctic Sea Ice
 has been lost overtime and give an indication on how it may look for the
 future generations ahead.
 
+<img src="images/marguerite1_large.jpg" width="391"/>
+
 ## Introduction:
+
+The Marguerite Bay is an area located in the Antarctic that contains a
+vast area of sea ice. I want to find out how much the concentration
+levels of sea ice in the area changes overtime and whether it is with a
+increase or decrease. As climate conditions are clearly worsening as the
+years go on, it is important to eyeball ice concentrations as the
+wildlife that lives around depends on it.
+
+<img src="images/polar-bear-MAIN2-01.jpg" width="431"/>
 
 ## Methods:
 
@@ -50,6 +65,14 @@ my data because they were statements about the data instead of numbers I
 couldn’t use.
 
 ## Results:
+
+![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
+Figure 1:
+
+![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+Figure 2:
 
 ## Discussion
 
