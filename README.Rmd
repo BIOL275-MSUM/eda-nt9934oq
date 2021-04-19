@@ -9,11 +9,13 @@ output: github_document
 knitr::opts_chunk$set(echo = FALSE, results = FALSE, message=FALSE, warning=FALSE)
 ```
 
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+
 # The Degradation of Sea Ice in The Marguerite Bay
 
 Michael Slaughter
 
-    Biosciences Department, Minnesota State University Moorhead, 1104 7th Avenue South, Moorhead, MN 56563 USA
+Biosciences Department, Minnesota State University Moorhead, 1104 7th Avenue South, Moorhead, MN 56563 USA
 
 ## Abstract
 
@@ -40,6 +42,9 @@ I found the data that worked best for me was provided the Palmer Station Antarct
 I first used the function read_fwf in the readr package (Hadley Wickham and Jim Hester 2020) to read in my sea ice data into a tibble. After that, I used the `fwf_widths` function to establish the widths of my columns and assign those columns to a variable name which were year and monthly sea ice concentrations. Finally, i skipped the first 8 lines of my data because they were statements about the data instead of numbers I couldn't use.
 
 ## Results:
+
+I chose to go about representing my data in two key ways. First I chose to do average concentration of every year and found that concentration decreases as the years go by (Fig 1). In addition to the average annual concentration, I chose to do monthly averages of concentration. I found that for every year given, the monthly concentrations increase when getting to the colder months of sept- december (Fig 2).
+
 
 ```{r}
 library(tidyverse)
@@ -89,7 +94,7 @@ ggplot(data=SumgroupiceData,mapping=aes(x=Year,y=avgannualConcent))+
 
 ```
 
-Figure 1:
+Figure 1: shows the average concentration of every year
 
 ```{r}
 monthgroupiceData <- group_by(extendiceData,Month)
@@ -110,10 +115,12 @@ ggplot(data=summonthData,mapping=aes(x=Month,y=avgmonthConcent))+
 
 ```
 
-Figure 2: 
+Figure 2: Monthly average concentrations based on the total of years
 
-## Discussion
 
+## Discussion:
+
+As we can conclude from our results, sea ice concentration in the Marguerite Bay is fluctuating at a slow decline eventually plummeting as it gets closer to the present. This is shown from (Fig 1) which shows strong concentration levels (above 80) in the early years closer to 1980 and then starts a decline eventually tanking at 2020. Moving forward with this, it is important to acknowledge that climate change is a rising issue that should discussed more as there may not be any sea ice left to support ocean life in the future.
 
 ## Literature Cited
 
@@ -132,5 +139,3 @@ RStudio, PBC, Boston, MA URL <http://www.rstudio.com/>.
 computing. R Foundation for Statistical Computing, Vienna, Austria. URL <https://www.R-project.org/>.
 
 Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686, <https://doi.org/10.21105/joss.01686>
-
-## References

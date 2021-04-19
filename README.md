@@ -3,11 +3,14 @@ EDA Project
 Michael Slaughter
 2021-03-09
 
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+
 # The Degradation of Sea Ice in The Marguerite Bay
 
 Michael Slaughter
 
-    Biosciences Department, Minnesota State University Moorhead, 1104 7th Avenue South, Moorhead, MN 56563 USA
+Biosciences Department, Minnesota State University Moorhead, 1104 7th
+Avenue South, Moorhead, MN 56563 USA
 
 ## Abstract
 
@@ -66,15 +69,31 @@ couldn’t use.
 
 ## Results:
 
+I chose to go about representing my data in two key ways. First I chose
+to do average concentration of every year and found that concentration
+decreases as the years go by (Fig 1). In addition to the average annual
+concentration, I chose to do monthly averages of concentration. I found
+that for every year given, the monthly concentrations increase when
+getting to the colder months of sept- december (Fig 2).
+
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
-Figure 1:
+Figure 1: shows the average concentration of every year
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
-Figure 2:
+Figure 2: Monthly average concentrations based on the total of years
 
-## Discussion
+## Discussion:
+
+As we can conclude from our results, sea ice concentration in the
+Marguerite Bay is fluctuating at a slow decline eventually plummeting as
+it gets closer to the present. This is shown from (Fig 1) which shows
+strong concentration levels (above 80) in the early years closer to 1980
+and then starts a decline eventually tanking at 2020. Moving forward
+with this, it is important to acknowledge that climate change is a
+rising issue that should discussed more as there may not be any sea ice
+left to support ocean life in the future.
 
 ## Literature Cited
 
@@ -100,5 +119,3 @@ computing. R Foundation for Statistical Computing, Vienna, Austria. URL
 
 Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source
 Software, 4(43), 1686, <https://doi.org/10.21105/joss.01686>
-
-## References
