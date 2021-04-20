@@ -1,11 +1,9 @@
-EDA Project
-================
-Michael Slaughter
-2021-03-09
 
-<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right"/>
 
 # The Degradation of Sea Ice in The Marguerite Bay
+
+Presentation ID:4987
 
 Michael Slaughter
 
@@ -104,16 +102,13 @@ Data Initiative.
 <https://doi.org/10.6073/pasta/d63bbcd641494e6f89143d011ea9cc2a>
 (Accessed 2021-03-25).
 
-    Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
-
+Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
 R package version 1.4.0. <https://CRAN.R-project.org/package=readr>
 
-      RStudio Team (2020). RStudio: Integrated Development Environment for R.
-
+RStudio Team (2020). RStudio: Integrated Development Environment for R.
 RStudio, PBC, Boston, MA URL <http://www.rstudio.com/>.
 
-    R Core Team (2020). R: A language and environment for statistical
-
+R Core Team (2020). R: A language and environment for statistical
 computing. R Foundation for Statistical Computing, Vienna, Austria. URL
 <https://www.R-project.org/>.
 

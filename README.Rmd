@@ -1,7 +1,4 @@
 ---
-title: "EDA Project"
-author: "Michael Slaughter"
-date: "2021-03-09"
 output: github_document
 ---
 
@@ -9,11 +6,13 @@ output: github_document
 knitr::opts_chunk$set(echo = FALSE, results = FALSE, message=FALSE, warning=FALSE)
 ```
 
-<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right"/>
 
 # The Degradation of Sea Ice in The Marguerite Bay
 
-Michael Slaughter
+Presentation ID:4987
+
+Michael Slaughter 
 
 Biosciences Department, Minnesota State University Moorhead, 1104 7th Avenue South, Moorhead, MN 56563 USA
 
@@ -44,7 +43,6 @@ I first used the function read_fwf in the readr package (Hadley Wickham and Jim 
 ## Results:
 
 I chose to go about representing my data in two key ways. First I chose to do average concentration of every year and found that concentration decreases as the years go by (Fig 1). In addition to the average annual concentration, I chose to do monthly averages of concentration. I found that for every year given, the monthly concentrations increase when getting to the colder months of sept- december (Fig 2).
-
 
 ```{r}
 library(tidyverse)
@@ -117,7 +115,6 @@ ggplot(data=summonthData,mapping=aes(x=Month,y=avgmonthConcent))+
 
 Figure 2: Monthly average concentrations based on the total of years
 
-
 ## Discussion:
 
 As we can conclude from our results, sea ice concentration in the Marguerite Bay is fluctuating at a slow decline eventually plummeting as it gets closer to the present. This is shown from (Fig 1) which shows strong concentration levels (above 80) in the early years closer to 1980 and then starts a decline eventually tanking at 2020. Moving forward with this, it is important to acknowledge that climate change is a rising issue that should discussed more as there may not be any sea ice left to support ocean life in the future.
@@ -126,16 +123,13 @@ As we can conclude from our results, sea ice concentration in the Marguerite Bay
 
 Palmer Station Antarctica LTER and S. Stammerjohn. 2020. Average monthly sea ice coverage for the PAL LTER region West of the Antarctic Peninsula derived from passive microwave, 1978 - Apr. 2019 ver 6. Environmental Data Initiative. <https://doi.org/10.6073/pasta/d63bbcd641494e6f89143d011ea9cc2a> (Accessed 2021-03-25).
 
-    Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
-
+Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
 R package version 1.4.0. <https://CRAN.R-project.org/package=readr>
 
-      RStudio Team (2020). RStudio: Integrated Development Environment for R.
-
+RStudio Team (2020). RStudio: Integrated Development Environment for R.
 RStudio, PBC, Boston, MA URL <http://www.rstudio.com/>.
 
-    R Core Team (2020). R: A language and environment for statistical
-
+R Core Team (2020). R: A language and environment for statistical
 computing. R Foundation for Statistical Computing, Vienna, Austria. URL <https://www.R-project.org/>.
 
 Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686, <https://doi.org/10.21105/joss.01686>
